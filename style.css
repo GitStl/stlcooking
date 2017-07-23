@@ -1,0 +1,83 @@
+/*
+Theme Name: Stl Cooking
+Theme URI: https://starkwebdesign.com
+Author: Tom Beckerle
+Author URI: https://starkwebdesign.com
+Description: Bootstrap Wordpress Theme
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: stl-cooking
+*/
+
+html {
+	height: 100%;
+	background:#344055;
+	font-family: "Helvetica Neue", Arial, sans-serif;
+	line-height: 1.5em;
+}
+
+#site-header {
+	background: #266DD3;
+	border-bottom: double 3px #aba;
+	border-left: solid 1px #9a9;
+	border-right: solid 1px #565;
+	border-top: solid 1px #9a9;
+	letter-spacing: 0.2em;
+	margin: 0;
+	padding: 15px 10px 15px 60px;
+  border-radius: 5px;
+  background-repeat: y;
+}
+
+#header-image {
+  float: left;
+  padding-bottom: 15px;
+}
+
+a[href^=tel] {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: black;
+  display: inline-block;
+  font-style: normal;
+  margin-top: 10px;
+  padding: 3px 5px;
+  text-decoration: none;
+}
+
+#phone {
+  text-align: right;
+  color: #ffffff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+#site-header h1 {
+	font-size:32px;
+	color: #ffff;
+	font-weight: 300;
+	letter-spacing: 1px;
+}
+
+
+#site-content {
+	background: #266DD3;
+	border-bottom: double 3px #aba;
+	border-left: solid 1px #9a9;
+	border-right: solid 1px #565;
+	border-top: solid 1px #9a9;
+	letter-spacing: 0.2em;
+	margin: 0;
+	padding: 15px 10px 15px 60px;
+  border-radius: 5px;
+  margin-top: 5px;
+}
+
+
+#site-footer {
+	color: #fff;
+	text-align:center;
+	font-size:12px;
+	text-transform: uppercase;
+}
