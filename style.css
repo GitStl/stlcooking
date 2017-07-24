@@ -18,7 +18,7 @@ html {
 }
 
 #site-header {
-	background: #266DD3;
+	background: #A28497;
 	border-bottom: double 3px #aba;
 	border-left: solid 1px #9a9;
 	border-right: solid 1px #565;
@@ -31,14 +31,12 @@ html {
 }
 
 #header-image {
-  float: left;
-  padding-bottom: 15px;
+	float: left;
+	margin-bottom: 15px;
 }
 
 a[href^=tel] {
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  color: black;
+  color: white;
   display: inline-block;
   font-style: normal;
   margin-top: 10px;
@@ -80,4 +78,35 @@ a[href^=tel] {
 	text-align:center;
 	font-size:12px;
 	text-transform: uppercase;
+	background-color: 6F5E5C
+}
+
+#main-nav   {
+    height: 30px; /* set to the height you want your menu to be */
+    margin: 0 0 10px; /* just to give some spacing */
+		background-color: #A28497;
+		border-radius: 5px;
+}
+#main-nav ul    {
+    margin: 0; padding: 0; /* only needed if you have not done a CSS reset */
+}
+#main-nav li    {
+    display: block;
+    float: left;
+    line-height: 30px; /* this should be the same as your #main-nav height */
+    height: 30px; /* this should be the same as your #main-nav height */
+    margin: 0; padding: 0; /* only needed if you don't have a reset */
+    position: relative; /* this is needed in order to position sub menus */
+}
+#main-nav li a  {
+    display: block;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 15px;
+		text-decoration: none;
+		color: white;
+}
+#main-nav .current-menu-item a, #main-nav .current_page_item a, #main-nav a:hover {
+    color: #000;
+    background: #ccc;
 }

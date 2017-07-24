@@ -1,10 +1,5 @@
-<?php
-/**
- * Created by PhpStorm.
- * User: tombeckerle
- * Date: 6/12/17
- * Time: 7:56 PM
- */
+
+
 
 <?php get_header() ?>
 
@@ -56,4 +51,4 @@
 
 <?php get_sidebar(); ?>
 
-<?php get_foot
+<?php get_footer();
